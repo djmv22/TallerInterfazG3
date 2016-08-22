@@ -64,6 +64,7 @@ public class Interfaz3 extends javax.swing.JFrame {
         jLabel3.setText("Monto final:");
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 130, -1, -1));
 
+        txtMontoFinal.setEditable(false);
         txtMontoFinal.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 txtMontoFinalKeyTyped(evt);
